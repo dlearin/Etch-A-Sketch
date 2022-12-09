@@ -84,12 +84,15 @@ body {
     font-weight: 700;
   }
   
+  #grid_container div {
+    border: 1px solid transparent;
+}
 
 #grid_container {
     display: inline-grid;
     border: solid #FF5E5B;
-    border-width: 6px 100px 0;
-    grid-gap: 1px;
+   border-width: 6px 100px 0;
+    /*grid-gap: 1px;*/
     background-color: #AAAAAA;
     /* cursor: crosshair; */
   }
@@ -100,6 +103,8 @@ body {
   
   .standar-grid {
     grid-template-columns: repeat(22, auto);
+    border: #FFFFEA !important;
+
   }
 
   .standar-grid > div {
